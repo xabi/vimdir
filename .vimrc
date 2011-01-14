@@ -54,3 +54,7 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strf
 let vimclojure#HighlightBuiltins = 1
 let vimclojure#ParenRainbow = 1
 set guioptions=aAce
+
+"défini un endroit pour mettre les swapFiles
+set backupdir=~/.vim/.backupdir
+set directory=~/.vim/.swapdir
