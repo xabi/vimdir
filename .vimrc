@@ -25,7 +25,17 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set nu
-
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+nnoremap <leader>ft Vatzf
 let mapleader=","
 
 nnoremap / /\v
@@ -40,12 +50,17 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-_> <C-w>_
 set wrap
 set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=100
 
-au FocusLost * :wa
+"au FocusLost * :wa
 
 inoremap ww <ESC>
 nnoremap <leader>a :Ack

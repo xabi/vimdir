@@ -1,5 +1,5 @@
 set go-=T
-set guifont=Monaco:h14
+set guifont=Menlo:h14
 set bg=dark
 colorscheme nuvola
 map <S-Enter> O<Esc>
