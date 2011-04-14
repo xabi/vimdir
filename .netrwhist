@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Volumes/facebook-dev/xabi/apps/oney'
 let g:netrw_dirhist_2='/Volumes/facebook-dev/xabi/apps'
 let g:netrw_dirhist_3='/Volumes/facebook-dev/xabi/apps/oney'
 let g:netrw_dirhist_4='/Volumes/facebook-dev/xabi/apps'
 let g:netrw_dirhist_5='/Volumes/facebook-dev/xabi/apps/oney'
+let g:netrw_dirhist_6='/Users/xabitapia/Desktop/proj'

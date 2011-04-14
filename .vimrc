@@ -8,7 +8,8 @@ set modelines=0
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set expandtab
+set noexpandtab 
+"noexpandtab pour avoir des tabulations tab et expandtab pour avoir des espaces
 
 set encoding=utf-8
 set scrolloff=3
@@ -62,7 +63,6 @@ set colorcolumn=100
 
 "au FocusLost * :wa
 
-inoremap ww <ESC>
 nnoremap <leader>a :Ack
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 
